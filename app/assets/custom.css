@@ -1,0 +1,45 @@
+*{
+    color:#868787;
+}
+body { 
+    background: url('images/bg.jpg');
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
+}
+
+.form-container{
+    border: 1px solid rgba(255, 255, 255, 0.31);;
+    padding: 50px 60px;
+    margin-top: 10vh;
+    -webkit-box-shadow: -1px 4px 26px -14px rgba(107,106,107,1);
+-moz-box-shadow: -1px 4px 26px -14px rgba(107,106,107,1);
+box-shadow: -1px 4px 26px -14px rgba(107,106,107,1);
+    background: rgba(255, 255, 255, 0.31);
+}
+h2{
+    text-align: center;
+}
+
+.form-container img {
+    vertical-align: middle;
+    border-style: none;
+    position: absolute;
+    top: 2vh;
+    left: calc(50% - 65px);
+}
+
+.form-control{
+   background:  rgba(255, 255, 255, 0.9);
+   height: calc(2.5em + .75rem + 2px);
+}
+
+
+textarea {
+    resize: none;
+}
+
+
